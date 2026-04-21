@@ -23,3 +23,8 @@ def merge(nums):
             nums[k]=r[j]
             j+=1
             k+=1
+
+#t.c: O(nlogn) and s.c: O(n)
+nums = [5, 2, 3, 1]
+nums = merge(nums)
+print(nums)

@@ -12,3 +12,6 @@ def colors(nums):
             high-=1
 
 #t.c: O(n) and s.c: O(1)
+nums = [2, 0, 2, 1, 1, 0]
+colors(nums)
+print(nums)  

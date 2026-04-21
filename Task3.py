@@ -10,3 +10,7 @@ def isiso(s,t):
         mapst[c1]=c2
         mapts[c2]=c1
     return True
+
+s = "egg"
+t = "add"
+print(isiso(s, t))  

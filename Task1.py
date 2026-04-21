@@ -5,3 +5,8 @@ def twosums(n,t):
         if comp in hashmap:
             return [hashmap[comp],i]
         hashmap[n[i]]=i
+
+n=[2,7,11,15]
+t=9
+print(twosums(n,t))
+

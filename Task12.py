@@ -12,7 +12,7 @@ def heapify(nums,n,i):
 
 def heapsort(nums):
     n=len(nums)
-    for i in range(n//2-1.-1.-1):
+    for i in range(n//2-1,-1,-1):
         heapify(nums,n,i)
 
     for i in range(n-1,0,1):
@@ -20,3 +20,6 @@ def heapsort(nums):
         heapify(nums,i,0)
 
 #t.c: O(nlogn) and s.c: O(1)
+nums = [4, 10, 3, 5, 1]
+heapsort(nums)
+print(nums)

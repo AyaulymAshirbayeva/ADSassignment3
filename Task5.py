@@ -1,4 +1,10 @@
 from collections import deque
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 def lot(root):
     if not root:
         return []
@@ -18,4 +24,7 @@ def lot(root):
         result.append(level)
     return result
         
-
+root = TreeNode(3)
+root.left = TreeNode(9)
+root.right = TreeNode(20, TreeNode(15), TreeNode(7))
+print(lot(root))  

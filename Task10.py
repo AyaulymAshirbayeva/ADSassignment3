@@ -16,6 +16,9 @@ def quick(nums):
     sort(0,len(nums)-1)
 
 #t.c O(nlogn) and O(n^2) in wosrt case if array is already sorted
+nums = [3, 6, 8, 10, 1, 2, 1]
+quick(nums)
+print(nums)
 
 
     

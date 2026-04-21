@@ -13,6 +13,7 @@ def ishap(n):
     return n==1
 
 #t.c and s.c are O(logn)
-
+n = 19
+print(ishap(n)) 
 
 
